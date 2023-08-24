@@ -1,0 +1,9 @@
+{
+    "user": {
+        "email": "test123@gmail.com",
+        "fullName": "Test2",
+        "company": "Company Test2",
+        "address": "TestAddress 8"
+    },
+    "message": "User updated successfully"
+}

@@ -1,0 +1,681 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Test SignUp Page",
+    "line": 1,
+    "id": "test-signup-page",
+    "tags": [],
+    "uri": "SignUpPage.feature",
+    "elements": [
+      {
+        "id": "test-signup-page;expected-forms-and-sign-up-button",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Expected Forms and Sign up Button",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user navigates to signUp page of PPm tool",
+            "result": {
+              "status": "passed",
+              "duration": 1757000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "user checks the submit page",
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the sumbit page contains the Inputs \"Name Form\" with the expected \"Name\"",
+            "result": {
+              "status": "passed",
+              "duration": 79000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the submit page contains the Sign up Button",
+            "result": {
+              "status": "passed",
+              "duration": 51000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-signup-page;expected-forms-and-sign-up-button",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Expected Forms and Sign up Button",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user navigates to signUp page of PPm tool",
+            "result": {
+              "status": "passed",
+              "duration": 588000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "user checks the submit page",
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the sumbit page contains the Inputs \"Email Form\" with the expected \"Email\"",
+            "result": {
+              "status": "passed",
+              "duration": 24000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the submit page contains the Sign up Button",
+            "result": {
+              "status": "passed",
+              "duration": 17000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-signup-page;expected-forms-and-sign-up-button",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Expected Forms and Sign up Button",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user navigates to signUp page of PPm tool",
+            "result": {
+              "status": "passed",
+              "duration": 451000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "user checks the submit page",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the sumbit page contains the Inputs \"Password Form\" with the expected \"Password\"",
+            "result": {
+              "status": "passed",
+              "duration": 20000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the submit page contains the Sign up Button",
+            "result": {
+              "status": "passed",
+              "duration": 18000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-signup-page;expected-forms-and-sign-up-button",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Expected Forms and Sign up Button",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user navigates to signUp page of PPm tool",
+            "result": {
+              "status": "passed",
+              "duration": 441000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "user checks the submit page",
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the sumbit page contains the Inputs \"Company Form\" with the expected \"Company\"",
+            "result": {
+              "status": "passed",
+              "duration": 21000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the submit page contains the Sign up Button",
+            "result": {
+              "status": "passed",
+              "duration": 15000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-signup-page;expected-forms-and-sign-up-button",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Expected Forms and Sign up Button",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user navigates to signUp page of PPm tool",
+            "result": {
+              "status": "passed",
+              "duration": 440000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "user checks the submit page",
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the sumbit page contains the Inputs \"Address\" with the expected \"Address\"",
+            "result": {
+              "status": "passed",
+              "duration": 19000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the submit page contains the Sign up Button",
+            "result": {
+              "status": "passed",
+              "duration": 16000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-signup-page;check-required-fields",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "Check Required Fields",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user navigates to signUp page of PPm tool",
+            "result": {
+              "status": "passed",
+              "duration": 529000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "user does not give any input for the required field \"Name Form\"",
+            "result": {
+              "status": "passed",
+              "duration": 640000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "user clicks on Sign Up button",
+            "result": {
+              "status": "passed",
+              "duration": 150000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "an error \"This field is required\" message should be visible under the \"Name Form\"",
+            "result": {
+              "status": "passed",
+              "duration": 114000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-signup-page;check-required-fields",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "Check Required Fields",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user navigates to signUp page of PPm tool",
+            "result": {
+              "status": "passed",
+              "duration": 516000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "user does not give any input for the required field \"Email Form\"",
+            "result": {
+              "status": "passed",
+              "duration": 572000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "user clicks on Sign Up button",
+            "result": {
+              "status": "passed",
+              "duration": 101000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "an error \"This field is required\" message should be visible under the \"Email Form\"",
+            "result": {
+              "status": "passed",
+              "duration": 104000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-signup-page;check-required-fields",
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "Check Required Fields",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user navigates to signUp page of PPm tool",
+            "result": {
+              "status": "passed",
+              "duration": 525000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "user does not give any input for the required field \"Password Form\"",
+            "result": {
+              "status": "passed",
+              "duration": 569000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "user clicks on Sign Up button",
+            "result": {
+              "status": "passed",
+              "duration": 92000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "an error \"This field is required\" message should be visible under the \"Password Form\"",
+            "result": {
+              "status": "passed",
+              "duration": 119000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-signup-page;check-non-required-fields",
+        "keyword": "Scenario",
+        "line": 43,
+        "name": "Check Non Required Fields",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user navigates to signUp page of PPm tool",
+            "result": {
+              "status": "passed",
+              "duration": 453000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 36,
+            "name": "user does not give any input for the non required field \"Company\"",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "user does give valid input for two of the three required fields",
+            "result": {
+              "status": "passed",
+              "duration": 317000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 38,
+            "name": "user clicks on Sign Up button",
+            "result": {
+              "status": "passed",
+              "duration": 93000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 39,
+            "name": "no error message visible under the \"Company\"",
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-signup-page;check-non-required-fields",
+        "keyword": "Scenario",
+        "line": 44,
+        "name": "Check Non Required Fields",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user navigates to signUp page of PPm tool",
+            "result": {
+              "status": "passed",
+              "duration": 570000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 36,
+            "name": "user does not give any input for the non required field \"Address\"",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "user does give valid input for two of the three required fields",
+            "result": {
+              "status": "passed",
+              "duration": 319000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 38,
+            "name": "user clicks on Sign Up button",
+            "result": {
+              "status": "passed",
+              "duration": 93000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 39,
+            "name": "no error message visible under the \"Address\"",
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-signup-page;validation-of-email-field",
+        "keyword": "Scenario",
+        "line": 55,
+        "name": "Validation of Email Field",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user navigates to signUp page of PPm tool",
+            "result": {
+              "status": "passed",
+              "duration": 1274000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 49,
+            "name": "user inputs invalid email \"123456635\"",
+            "result": {
+              "status": "passed",
+              "duration": 187000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 50,
+            "name": "user clicks on Sign Up button",
+            "result": {
+              "status": "passed",
+              "duration": 98000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 51,
+            "name": "an error \"Invalid email format\" message should be visible under the email input field",
+            "result": {
+              "status": "passed",
+              "duration": 94000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-signup-page;validation-of-email-field",
+        "keyword": "Scenario",
+        "line": 56,
+        "name": "Validation of Email Field",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user navigates to signUp page of PPm tool",
+            "result": {
+              "status": "passed",
+              "duration": 711000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 49,
+            "name": "user inputs invalid email \"test@@@gmail.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 277000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 50,
+            "name": "user clicks on Sign Up button",
+            "result": {
+              "status": "passed",
+              "duration": 110000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 51,
+            "name": "an error \"Invalid email format\" message should be visible under the email input field",
+            "result": {
+              "status": "passed",
+              "duration": 100000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-signup-page;validation-of-email-field",
+        "keyword": "Scenario",
+        "line": 57,
+        "name": "Validation of Email Field",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user navigates to signUp page of PPm tool",
+            "result": {
+              "status": "passed",
+              "duration": 512000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 49,
+            "name": "user inputs invalid email \"test2-hotmail\"",
+            "result": {
+              "status": "passed",
+              "duration": 263000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 50,
+            "name": "user clicks on Sign Up button",
+            "result": {
+              "status": "passed",
+              "duration": 108000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 51,
+            "name": "an error \"Invalid email format\" message should be visible under the email input field",
+            "result": {
+              "status": "passed",
+              "duration": 97000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

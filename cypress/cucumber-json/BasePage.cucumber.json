@@ -1,0 +1,252 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Test Base Page",
+    "line": 1,
+    "id": "test-base-page",
+    "tags": [],
+    "uri": "BasePage.feature",
+    "elements": [
+      {
+        "id": "test-base-page;check-base-page---different-screen-sizes",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Check Base Page - Different Screen sizes",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user navigates to Base page of PMTool with screen size \"LG\"",
+            "result": {
+              "status": "passed",
+              "duration": 1711000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "user checks the page",
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "a tip message \"Welcome to PPM tool. Signup for free, or login if you already have an account\" is shown",
+            "result": {
+              "status": "passed",
+              "duration": 27000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the Log in button exists",
+            "result": {
+              "status": "passed",
+              "duration": 15000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the Sign up button exists",
+            "result": {
+              "status": "passed",
+              "duration": 19000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the PMTool logo is shown",
+            "result": {
+              "status": "passed",
+              "duration": 15000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "the title of the page is \"PPM tool\"",
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-base-page;check-base-page---different-screen-sizes",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Check Base Page - Different Screen sizes",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user navigates to Base page of PMTool with screen size \"XL\"",
+            "result": {
+              "status": "passed",
+              "duration": 545000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "user checks the page",
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "a tip message \"Welcome to PPM tool. Signup for free, or login if you already have an account\" is shown",
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the Log in button exists",
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the Sign up button exists",
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the PMTool logo is shown",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "the title of the page is \"PPM tool\"",
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-base-page;check-base-page---different-screen-sizes",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Check Base Page - Different Screen sizes",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user navigates to Base page of PMTool with screen size \"XXL\"",
+            "result": {
+              "status": "passed",
+              "duration": 459000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "user checks the page",
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "a tip message \"Welcome to PPM tool. Signup for free, or login if you already have an account\" is shown",
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the Log in button exists",
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the Sign up button exists",
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the PMTool logo is shown",
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "the title of the page is \"PPM tool\"",
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

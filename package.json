@@ -1,0 +1,32 @@
+{
+  "name": "ppm_tool",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open",
+    "cypress:run": "npm install && cypress run",
+    "test:report": " cd cypress/reports && node report.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Eirini_mos@bitbucket.org/Eirini_mos/ppm_tool.git"
+  },
+  "author": "Eirini Moschopoulou",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/Eirini_mos/ppm_tool#readme",
+  "devDependencies": {
+    "cypress": "^9.2.0",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "dependencies": {
+    "multiple-cucumber-html-reporter": "^1.19.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json"
+    }
+  }
+}

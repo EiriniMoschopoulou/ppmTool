@@ -1,0 +1,991 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Check Settings Page",
+    "line": 1,
+    "id": "check-settings-page",
+    "tags": [],
+    "uri": "SettingsPage.feature",
+    "elements": [
+      {
+        "id": "check-settings-page;user-can-validate-their-personal-details-in-the-settings-tab",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "User can validate their personal details in the Settings tab",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Name",
+                      "Password",
+                      "Email",
+                      "Company",
+                      "Address"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "TestName",
+                      "123456",
+                      "test123@gmail.com",
+                      "TestCompany",
+                      "TestAddress 8"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user with details has succesfully signedUp",
+            "result": {
+              "status": "passed",
+              "duration": 3487000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "VerifyYourAccountMessage",
+                      "SuccesfulSignUpMessage"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Verify your account",
+                      "Successfull registration, login to start using PPMTool"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the Verify Your Account Message is appeared",
+            "result": {
+              "status": "passed",
+              "duration": 129000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Name",
+                      "Password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "TestName",
+                      "123456"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 12,
+            "name": "user loged in with the above credentials",
+            "result": {
+              "status": "passed",
+              "duration": 750000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "user navigates to Setting Page",
+            "result": {
+              "status": "passed",
+              "duration": 562000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "the page contains the Inputs \"Name Form\" with the expected \"Name\"",
+            "result": {
+              "status": "passed",
+              "duration": 74000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "the \"Name Form\" are prefilled with the expected \"TestName\"",
+            "result": {
+              "status": "passed",
+              "duration": 94000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "the Settings page contains the Update Info Button",
+            "result": {
+              "status": "passed",
+              "duration": 26000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "check-settings-page;user-can-validate-their-personal-details-in-the-settings-tab",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "User can validate their personal details in the Settings tab",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Name",
+                      "Password",
+                      "Email",
+                      "Company",
+                      "Address"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "TestName",
+                      "123456",
+                      "test123@gmail.com",
+                      "TestCompany",
+                      "TestAddress 8"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user with details has succesfully signedUp",
+            "result": {
+              "status": "passed",
+              "duration": 1994000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "VerifyYourAccountMessage",
+                      "SuccesfulSignUpMessage"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Verify your account",
+                      "Successfull registration, login to start using PPMTool"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the Verify Your Account Message is appeared",
+            "result": {
+              "status": "passed",
+              "duration": 42000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Name",
+                      "Password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "TestName",
+                      "123456"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 12,
+            "name": "user loged in with the above credentials",
+            "result": {
+              "status": "passed",
+              "duration": 556000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "user navigates to Setting Page",
+            "result": {
+              "status": "passed",
+              "duration": 435000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "the page contains the Inputs \"Company Form\" with the expected \"Company\"",
+            "result": {
+              "status": "passed",
+              "duration": 23000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "the \"Company Form\" are prefilled with the expected \"TestCompany\"",
+            "result": {
+              "status": "passed",
+              "duration": 29000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "the Settings page contains the Update Info Button",
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "check-settings-page;user-can-validate-their-personal-details-in-the-settings-tab",
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "User can validate their personal details in the Settings tab",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Name",
+                      "Password",
+                      "Email",
+                      "Company",
+                      "Address"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "TestName",
+                      "123456",
+                      "test123@gmail.com",
+                      "TestCompany",
+                      "TestAddress 8"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user with details has succesfully signedUp",
+            "result": {
+              "status": "passed",
+              "duration": 2145000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "VerifyYourAccountMessage",
+                      "SuccesfulSignUpMessage"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Verify your account",
+                      "Successfull registration, login to start using PPMTool"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the Verify Your Account Message is appeared",
+            "result": {
+              "status": "passed",
+              "duration": 54000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Name",
+                      "Password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "TestName",
+                      "123456"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 12,
+            "name": "user loged in with the above credentials",
+            "result": {
+              "status": "passed",
+              "duration": 616000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "user navigates to Setting Page",
+            "result": {
+              "status": "passed",
+              "duration": 505000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "the page contains the Inputs \"Address\" with the expected \"Address\"",
+            "result": {
+              "status": "passed",
+              "duration": 35000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "the \"Address\" are prefilled with the expected \"TestAddress 8\"",
+            "result": {
+              "status": "passed",
+              "duration": 46000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "the Settings page contains the Update Info Button",
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "check-settings-page;user-can-modify-their-personal-details-in-the-settings-tab",
+        "keyword": "Scenario",
+        "line": 43,
+        "name": "User can modify their personal details in the Settings tab",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Name",
+                      "Password",
+                      "Email",
+                      "Company",
+                      "Address"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "TestName",
+                      "123456",
+                      "test123@gmail.com",
+                      "TestCompany",
+                      "TestAddress 8"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user with details has succesfully signedUp",
+            "result": {
+              "status": "passed",
+              "duration": 2114000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "VerifyYourAccountMessage",
+                      "SuccesfulSignUpMessage"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Verify your account",
+                      "Successfull registration, login to start using PPMTool"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the Verify Your Account Message is appeared",
+            "result": {
+              "status": "passed",
+              "duration": 61000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Name",
+                      "Password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "TestName",
+                      "123456"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 12,
+            "name": "user loged in with the above credentials",
+            "result": {
+              "status": "passed",
+              "duration": 559000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "user navigates to Setting Page",
+            "result": {
+              "status": "passed",
+              "duration": 473000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 35,
+            "name": "user modify his name to \"Test2\"",
+            "result": {
+              "status": "passed",
+              "duration": 279000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "user modify his Company to \"Company Test2\"",
+            "result": {
+              "status": "passed",
+              "duration": 421000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "user clicks on Update Info Button",
+            "result": {
+              "status": "passed",
+              "duration": 110000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "a pop up window message is shown up",
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 39,
+            "name": "the Settings page contains the Inputs \"Test2\" with the expected \"Company Test2\"",
+            "result": {
+              "status": "passed",
+              "duration": 510000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "check-settings-page;check-required-fields",
+        "keyword": "Scenario",
+        "line": 53,
+        "name": "Check Required Fields",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Name",
+                      "Password",
+                      "Email",
+                      "Company",
+                      "Address"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "TestName",
+                      "123456",
+                      "test123@gmail.com",
+                      "TestCompany",
+                      "TestAddress 8"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user with details has succesfully signedUp",
+            "result": {
+              "status": "passed",
+              "duration": 1865000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "VerifyYourAccountMessage",
+                      "SuccesfulSignUpMessage"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Verify your account",
+                      "Successfull registration, login to start using PPMTool"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the Verify Your Account Message is appeared",
+            "result": {
+              "status": "passed",
+              "duration": 37000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Name",
+                      "Password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "TestName",
+                      "123456"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 12,
+            "name": "user loged in with the above credentials",
+            "result": {
+              "status": "passed",
+              "duration": 505000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "user navigates to Setting Page",
+            "result": {
+              "status": "passed",
+              "duration": 428000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 47,
+            "name": "user does not give any input for the required field \"Name Form\"",
+            "result": {
+              "status": "passed",
+              "duration": 150000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 48,
+            "name": "user clicks on Update Info Button",
+            "result": {
+              "status": "passed",
+              "duration": 89000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 49,
+            "name": "an error \"This field is required\" message should be visible under the \"Name Form\"",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 10000ms: Expected to find element: `[class=\"invalid-feedback\"]`, but never found it.\n    at Object.getErrorMessage (https://node-fs-app.herokuapp.com/__cypress/tests?p=cypress\\integration\\SettingsPage.feature:245:17)\n    at SubmitPage.checkErrorMessage (https://node-fs-app.herokuapp.com/__cypress/tests?p=cypress\\integration\\SettingsPage.feature:502:35)\n    at Context.eval (https://node-fs-app.herokuapp.com/__cypress/tests?p=cypress\\integration\\SettingsPage.feature:209:14)\n    at Context.resolveAndRunStepDefinition (https://node-fs-app.herokuapp.com/__cypress/tests?p=cypress\\integration\\SettingsPage.feature:11115:29)\n    at Context.eval (https://node-fs-app.herokuapp.com/__cypress/tests?p=cypress\\integration\\SettingsPage.feature:10436:35)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "check-settings-page;check-required-fields",
+        "keyword": "Scenario",
+        "line": 54,
+        "name": "Check Required Fields",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Name",
+                      "Password",
+                      "Email",
+                      "Company",
+                      "Address"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "TestName",
+                      "123456",
+                      "test123@gmail.com",
+                      "TestCompany",
+                      "TestAddress 8"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user with details has succesfully signedUp",
+            "result": {
+              "status": "passed",
+              "duration": 2515000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "VerifyYourAccountMessage",
+                      "SuccesfulSignUpMessage"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Verify your account",
+                      "Successfull registration, login to start using PPMTool"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the Verify Your Account Message is appeared",
+            "result": {
+              "status": "passed",
+              "duration": 54000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Name",
+                      "Password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "TestName",
+                      "123456"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 12,
+            "name": "user loged in with the above credentials",
+            "result": {
+              "status": "passed",
+              "duration": 559000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "user navigates to Setting Page",
+            "result": {
+              "status": "passed",
+              "duration": 523000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 47,
+            "name": "user does not give any input for the required field \"Email Form\"",
+            "result": {
+              "status": "passed",
+              "duration": 153000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 48,
+            "name": "user clicks on Update Info Button",
+            "result": {
+              "status": "passed",
+              "duration": 91000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 49,
+            "name": "an error \"This field is required\" message should be visible under the \"Email Form\"",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 10000ms: Expected to find element: `[class=\"invalid-feedback\"]`, but never found it.\n    at Object.getErrorMessage (https://node-fs-app.herokuapp.com/__cypress/tests?p=cypress\\integration\\SettingsPage.feature:245:17)\n    at SubmitPage.checkErrorMessage (https://node-fs-app.herokuapp.com/__cypress/tests?p=cypress\\integration\\SettingsPage.feature:494:35)\n    at Context.eval (https://node-fs-app.herokuapp.com/__cypress/tests?p=cypress\\integration\\SettingsPage.feature:209:14)\n    at Context.resolveAndRunStepDefinition (https://node-fs-app.herokuapp.com/__cypress/tests?p=cypress\\integration\\SettingsPage.feature:11115:29)\n    at Context.eval (https://node-fs-app.herokuapp.com/__cypress/tests?p=cypress\\integration\\SettingsPage.feature:10436:35)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "check-settings-page;check-required-fields",
+        "keyword": "Scenario",
+        "line": 55,
+        "name": "Check Required Fields",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Name",
+                      "Password",
+                      "Email",
+                      "Company",
+                      "Address"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "TestName",
+                      "123456",
+                      "test123@gmail.com",
+                      "TestCompany",
+                      "TestAddress 8"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user with details has succesfully signedUp",
+            "result": {
+              "status": "passed",
+              "duration": 2362000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "VerifyYourAccountMessage",
+                      "SuccesfulSignUpMessage"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Verify your account",
+                      "Successfull registration, login to start using PPMTool"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the Verify Your Account Message is appeared",
+            "result": {
+              "status": "passed",
+              "duration": 44000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Name",
+                      "Password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "TestName",
+                      "123456"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 12,
+            "name": "user loged in with the above credentials",
+            "result": {
+              "status": "passed",
+              "duration": 566000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "user navigates to Setting Page",
+            "result": {
+              "status": "passed",
+              "duration": 532000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 47,
+            "name": "user does not give any input for the required field \"Password Form\"",
+            "result": {
+              "status": "passed",
+              "duration": 156000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 48,
+            "name": "user clicks on Update Info Button",
+            "result": {
+              "status": "passed",
+              "duration": 122000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 49,
+            "name": "an error \"This field is required\" message should be visible under the \"Password Form\"",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 10000ms: Expected to find element: `[class=\"invalid-feedback\"]`, but never found it.\n    at Object.getErrorMessage (https://node-fs-app.herokuapp.com/__cypress/tests?p=cypress\\integration\\SettingsPage.feature:245:17)\n    at SubmitPage.checkErrorMessage (https://node-fs-app.herokuapp.com/__cypress/tests?p=cypress\\integration\\SettingsPage.feature:498:35)\n    at Context.eval (https://node-fs-app.herokuapp.com/__cypress/tests?p=cypress\\integration\\SettingsPage.feature:209:14)\n    at Context.resolveAndRunStepDefinition (https://node-fs-app.herokuapp.com/__cypress/tests?p=cypress\\integration\\SettingsPage.feature:11115:29)\n    at Context.eval (https://node-fs-app.herokuapp.com/__cypress/tests?p=cypress\\integration\\SettingsPage.feature:10436:35)"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

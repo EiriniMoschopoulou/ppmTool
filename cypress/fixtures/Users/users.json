@@ -1,0 +1,10 @@
+{
+    "user": {
+        "has2fa": false,
+        "email": "test123@gmail.com",
+        "fullName": "TestName",
+        "company": "TestCompany",
+        "address": "TestAddress 8"
+    },
+    "message": "User retrieved successfully"
+}

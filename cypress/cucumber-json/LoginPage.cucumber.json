@@ -1,0 +1,212 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Test Login Page",
+    "line": 1,
+    "id": "test-login-page",
+    "tags": [],
+    "uri": "LoginPage.feature",
+    "elements": [
+      {
+        "id": "test-login-page;expected-forms-and-login-button",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Expected Forms and Login Button",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user navigates to login page of PPm tool",
+            "result": {
+              "status": "passed",
+              "duration": 1599000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "user checks the login page",
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the login page contains the Inputs \"Email Form\" with the expected \"Email\"",
+            "result": {
+              "status": "passed",
+              "duration": 88000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the login page contains the Login Button",
+            "result": {
+              "status": "passed",
+              "duration": 45000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-login-page;expected-forms-and-login-button",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Expected Forms and Login Button",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user navigates to login page of PPm tool",
+            "result": {
+              "status": "passed",
+              "duration": 609000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "user checks the login page",
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the login page contains the Inputs \"Password Form\" with the expected \"Password\"",
+            "result": {
+              "status": "passed",
+              "duration": 24000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the login page contains the Login Button",
+            "result": {
+              "status": "passed",
+              "duration": 20000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-login-page;check-required-fields",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Check Required Fields",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user navigates to login page of PPm tool",
+            "result": {
+              "status": "passed",
+              "duration": 516000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "user does not give any input for the required field \"Email Form\"",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "user clicks on Log in button",
+            "result": {
+              "status": "passed",
+              "duration": 110000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "an error \"Invalid login info\" message should be visible under the \"Email Form\"",
+            "result": {
+              "status": "passed",
+              "duration": 122000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-login-page;check-required-fields",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "Check Required Fields",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user navigates to login page of PPm tool",
+            "result": {
+              "status": "passed",
+              "duration": 476000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "user does not give any input for the required field \"Password Form\"",
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "user clicks on Log in button",
+            "result": {
+              "status": "passed",
+              "duration": 92000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "an error \"Invalid login info\" message should be visible under the \"Password Form\"",
+            "result": {
+              "status": "passed",
+              "duration": 100000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

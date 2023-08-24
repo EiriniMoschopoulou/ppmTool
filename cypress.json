@@ -1,0 +1,14 @@
+{
+    "testFiles": "**/*.{feature,features}",
+    "screenshotOnRunFailure": true,
+    "video": false,
+    "chromeWebSecurity": false,
+    "defaultCommandTimeout": 10000,
+    "execTimeout": 10000,
+    "pageLoadTimeout": 15000,
+    "requestTimeout": 10000,
+    "responseTimeout": 10000,
+    "baseUrl": "https://node-fs-app.herokuapp.com/",
+    "env": {},
+    "includeShadowDom": true
+}

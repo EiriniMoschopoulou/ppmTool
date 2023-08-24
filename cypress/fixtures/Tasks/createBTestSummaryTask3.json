@@ -1,0 +1,17 @@
+{
+    "task": {
+        "status": "TO DO",
+        "labels": [
+            "backend"
+        ],
+        "attachments": [],
+        "_id": "62153ed29385e5002343be6a",
+        "summary": "BTestSummaryTask 3",
+        "description": "TestDescriptionTask 3",
+        "_projectId": "62153db39385e5002343be67",
+        "createdAt": "2022-02-22T19:51:46.395Z",
+        "updatedAt": "2022-02-22T19:51:46.395Z",
+        "__v": 0
+    },
+    "message": "Task created successfully"
+}

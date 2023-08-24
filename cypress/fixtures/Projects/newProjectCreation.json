@@ -1,0 +1,12 @@
+{
+    "project": {
+        "_id": "6213fc5cc3d71c0021d1c837",
+        "name": "Test Project name",
+        "description": "Test Project Description",
+        "_userId": "621287595a09850023d019bc",
+        "createdAt": "2022-02-21T20:55:56.068Z",
+        "updatedAt": "2022-02-21T20:55:56.068Z",
+        "__v": 0
+    },
+    "message": "Project created successfully"
+}

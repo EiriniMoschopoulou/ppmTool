@@ -1,0 +1,18 @@
+{
+    "task": {
+        "status": "IN PROGRESS",
+        "labels": [
+            null
+        ],
+        "attachments": [],
+        "_id": "6214197ec3d71c0021d1c839",
+        "summary": "TestSummaryTask",
+        "description": "TestDescriptionTask",
+        "_projectId": "6213f36dc3d71c0021d1c834",
+        "createdAt": "2022-02-21T20:18:09.421Z",
+        "updatedAt": "2022-02-22T17:38:01.334Z",
+        "__v": 1,
+        "_elasticId": "WNTvHX8BwmxCGGnJMUvN"
+    },
+    "message": "Tasks updated successfully"
+}

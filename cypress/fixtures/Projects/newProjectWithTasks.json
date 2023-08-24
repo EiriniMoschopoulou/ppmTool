@@ -1,0 +1,14 @@
+{
+    "projects": [
+        {
+            "_id": "62153db39385e5002343be67",
+            "name": "Test Project with Tasks",
+            "description": "Test Project with Tasks",
+            "_userId": "621287595a09850023d019bc",
+            "createdAt": "2022-02-22T19:46:59.458Z",
+            "updatedAt": "2022-02-22T19:46:59.458Z",
+            "__v": 0
+        }
+    ],
+    "message": "Projects retrieved successfully"
+}

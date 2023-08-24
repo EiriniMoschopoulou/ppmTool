@@ -1,0 +1,512 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Dashboard Page",
+    "line": 1,
+    "id": "dashboard-page",
+    "tags": [],
+    "uri": "DashboardPage.feature",
+    "elements": [
+      {
+        "id": "dashboard-page;users-should-be-able-to-add-/-edit-/-view-/-delete-projects",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Users should be able to Add / Edit / View / Delete projects",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Name",
+                      "Password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "TestName",
+                      "123456"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user loged in with valid credentials",
+            "result": {
+              "status": "passed",
+              "duration": 2827000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "user navigates to Dashboard Page",
+            "result": {
+              "status": "passed",
+              "duration": 155000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Welcome Text",
+                      "Info Message"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Welcome!",
+                      "There are no projects created yet. Start by creating some!"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "the Welcome Text Message is appeared",
+            "result": {
+              "status": "passed",
+              "duration": 171000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "the Dashboard page contains the create Button",
+            "result": {
+              "status": "passed",
+              "duration": 34000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "dashboard-page;users-should-be-able-to-add-/-edit-/-view-/-delete-tasks-for-a-specific-project",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Users should be able to Add / Edit / View / Delete tasks for a specific project",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Name",
+                      "Password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "TestName",
+                      "123456"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user loged in with valid credentials",
+            "result": {
+              "status": "passed",
+              "duration": 1065000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "user navigates to Dashboard Page",
+            "result": {
+              "status": "passed",
+              "duration": 99000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "creates a new project with name \"Test Project name\" and description \"Test Project Description\"",
+            "result": {
+              "status": "passed",
+              "duration": 1201000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "user is redirected to Dashboard page",
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "the Dashboard page contains the new project with name \"Test Project name\"",
+            "result": {
+              "status": "passed",
+              "duration": 31000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "dashboard-page;user-can-edit-/-view-/-delete-tasks-for-a-specific-project",
+        "keyword": "Scenario",
+        "line": 38,
+        "name": "User can Edit / View / Delete tasks for a specific project",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Name",
+                      "Password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "TestName",
+                      "123456"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user loged in with valid credentials",
+            "result": {
+              "status": "passed",
+              "duration": 1096000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "user navigates to Dashboard Page",
+            "result": {
+              "status": "passed",
+              "duration": 92000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "creates a new project with name \"Test Project name\" and description \"Test Project Description\"",
+            "result": {
+              "status": "passed",
+              "duration": 1110000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "ButtonAdd",
+                      "ButtonView",
+                      "ButtonEdit",
+                      "ButtonDelete"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Add task",
+                      "View Tasks",
+                      "Edit",
+                      "Delete"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "the projects tab contains the buttons",
+            "result": {
+              "status": "passed",
+              "duration": 83000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "dashboard-page;create-task",
+        "keyword": "Scenario",
+        "line": 50,
+        "name": "Create Task",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Name",
+                      "Password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "TestName",
+                      "123456"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user loged in with valid credentials",
+            "result": {
+              "status": "passed",
+              "duration": 1022000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "user navigates to Dashboard Page",
+            "result": {
+              "status": "passed",
+              "duration": 102000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 41,
+            "name": "creates a new project with name \"Test Project name\" and description \"Test Project Description\"",
+            "result": {
+              "status": "passed",
+              "duration": 1072000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 42,
+            "name": "user creates a task with details \"TestSummaryTask\" and \"TestDescriptionTask\" and \"TO DO\" and \"backend\"",
+            "result": {
+              "status": "passed",
+              "duration": 1286000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 43,
+            "name": "user is redirected to the tasks page of the project",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 44,
+            "name": "the tasks contains the columns TO DO and IN PROGRESS and IN REVIEW and DONE",
+            "result": {
+              "status": "passed",
+              "duration": 137000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 45,
+            "name": "the tasks page of the project contains the last created task with summary \"TestSummaryTask\"",
+            "result": {
+              "status": "passed",
+              "duration": 32000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "dashboard-page;users-should-be-able-to-edit-or-delete-a-task",
+        "keyword": "Scenario",
+        "line": 60,
+        "name": "Users should be able to edit or delete a task",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Name",
+                      "Password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "TestName",
+                      "123456"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user loged in with valid credentials",
+            "result": {
+              "status": "passed",
+              "duration": 982000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "user navigates to Dashboard Page",
+            "result": {
+              "status": "passed",
+              "duration": 97000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 53,
+            "name": "creates a new project with name \"Test Project name\" and description \"Test Project Description\"",
+            "result": {
+              "status": "passed",
+              "duration": 1120000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 54,
+            "name": "user creates a task with details \"TestSummaryTask\" and \"Test Project Description\" and \"TO DO\" and \"backend\"",
+            "result": {
+              "status": "passed",
+              "duration": 1263000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 55,
+            "name": "the task tab with summary \"TestSummaryTask\" contains the button edit and delete",
+            "result": {
+              "status": "passed",
+              "duration": 68000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "dashboard-page;users-should-be-able--to-move-tasks-to-different-status(es)-through-drag-and-drop",
+        "keyword": "Scenario",
+        "line": 71,
+        "name": "Users should be able  to move tasks to different status(es) through drag and drop",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Name",
+                      "Password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "TestName",
+                      "123456"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user loged in with valid credentials",
+            "result": {
+              "status": "passed",
+              "duration": 1080000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "user navigates to Dashboard Page",
+            "result": {
+              "status": "passed",
+              "duration": 92000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 64,
+            "name": "creates a new project with name \"Test Project name\" and description \"Test Project Description\"",
+            "result": {
+              "status": "passed",
+              "duration": 1035000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 65,
+            "name": "user creates a task with details \"TestSummaryTask\" and \"Test Project Description\" and \"TO DO\" and \"backend\"",
+            "result": {
+              "status": "passed",
+              "duration": 1170000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 66,
+            "name": "user is able to drag and drop the task with summary \"TestSummaryTask\" to tab \"In PROGRESS\"",
+            "result": {
+              "status": "passed",
+              "duration": 91000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

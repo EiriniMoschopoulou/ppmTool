@@ -1,0 +1,681 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "TasksDB Page Tests",
+    "line": 1,
+    "id": "tasksdb-page-tests",
+    "tags": [],
+    "uri": "TasksDB.feature",
+    "elements": [
+      {
+        "id": "tasksdb-page-tests;users-should-be-able-to-view-all-tasks-belonging-to-their-projects-in-taskdb-and-sort-functionality",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Users should be able to view all tasks belonging to their projects in TaskDB And Sort Functionality",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Name",
+                      "Password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "TestName",
+                      "123456"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user loged in with valid credentials",
+            "result": {
+              "status": "passed",
+              "duration": 2008000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "user navigates to Dashboard Page",
+            "result": {
+              "status": "passed",
+              "duration": 125000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "user has a Project in Dashboard with name Test Project with Tasks",
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "user creates a task with details \"TestSummaryTask\" and \"TestDescriptionTask\" and \"TO DO\" and \"backend\"",
+            "result": {
+              "status": "passed",
+              "duration": 1427000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "user navigates to TasksDB page",
+            "result": {
+              "status": "passed",
+              "duration": 147000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "the tasks page of the project contains the last created task with summary \"TestSummaryTask\"",
+            "result": {
+              "status": "passed",
+              "duration": 38000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "user clicks on Sort by Summary Button",
+            "result": {
+              "status": "passed",
+              "duration": 124000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Task1",
+                      "Task2",
+                      "Task3"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "ATestSummaryTask 2",
+                      "BTestSummaryTask 3",
+                      "TestSummaryTask"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "the tasks are sorted accordingly",
+            "result": {
+              "status": "passed",
+              "duration": 142000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "tasksdb-page-tests;users-should-be-able-to-view-all-tasks-belonging-to-their-projects-in-taskdb-and-sort-functionality",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "Users should be able to view all tasks belonging to their projects in TaskDB And Sort Functionality",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Name",
+                      "Password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "TestName",
+                      "123456"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user loged in with valid credentials",
+            "result": {
+              "status": "passed",
+              "duration": 1019000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "user navigates to Dashboard Page",
+            "result": {
+              "status": "passed",
+              "duration": 95000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "user has a Project in Dashboard with name Test Project with Tasks",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "user creates a task with details \"ATestSummaryTask 2\" and \"TestDescriptionTask 2\" and \"TO DO\" and \"backend\"",
+            "result": {
+              "status": "passed",
+              "duration": 1171000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "user navigates to TasksDB page",
+            "result": {
+              "status": "passed",
+              "duration": 101000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "the tasks page of the project contains the last created task with summary \"ATestSummaryTask 2\"",
+            "result": {
+              "status": "passed",
+              "duration": 27000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "user clicks on Sort by Summary Button",
+            "result": {
+              "status": "passed",
+              "duration": 90000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Task1",
+                      "Task2",
+                      "Task3"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "ATestSummaryTask 2",
+                      "BTestSummaryTask 3",
+                      "TestSummaryTask"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "the tasks are sorted accordingly",
+            "result": {
+              "status": "passed",
+              "duration": 50000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "tasksdb-page-tests;users-should-be-able-to-view-all-tasks-belonging-to-their-projects-in-taskdb-and-sort-functionality",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "Users should be able to view all tasks belonging to their projects in TaskDB And Sort Functionality",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Name",
+                      "Password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "TestName",
+                      "123456"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user loged in with valid credentials",
+            "result": {
+              "status": "passed",
+              "duration": 894000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "user navigates to Dashboard Page",
+            "result": {
+              "status": "passed",
+              "duration": 90000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "user has a Project in Dashboard with name Test Project with Tasks",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "user creates a task with details \"BTestSummaryTask 3\" and \"TestDescriptionTask 3\" and \"TO DO\" and \"backend\"",
+            "result": {
+              "status": "passed",
+              "duration": 1167000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "user navigates to TasksDB page",
+            "result": {
+              "status": "passed",
+              "duration": 92000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "the tasks page of the project contains the last created task with summary \"BTestSummaryTask 3\"",
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "user clicks on Sort by Summary Button",
+            "result": {
+              "status": "passed",
+              "duration": 94000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Task1",
+                      "Task2",
+                      "Task3"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "ATestSummaryTask 2",
+                      "BTestSummaryTask 3",
+                      "TestSummaryTask"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "the tasks are sorted accordingly",
+            "result": {
+              "status": "passed",
+              "duration": 44000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "tasksdb-page-tests;user-is-able-to-perform-searching-on-tasks-db-page",
+        "keyword": "Scenario",
+        "line": 41,
+        "name": "User is able to perform searching on tasks DB Page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Name",
+                      "Password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "TestName",
+                      "123456"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user loged in with valid credentials",
+            "result": {
+              "status": "passed",
+              "duration": 874000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "user navigates to Dashboard Page",
+            "result": {
+              "status": "passed",
+              "duration": 85000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "user has a Project in Dashboard with name Test Project with Tasks",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "user creates a task with details \"TestSummaryTask\" and \"TestDescriptionTask\" and \"TO DO\" and \"backend\"",
+            "result": {
+              "status": "passed",
+              "duration": 1073000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "user navigates to TasksDB page",
+            "result": {
+              "status": "passed",
+              "duration": 89000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 35,
+            "name": "user perform a search with keyword \"another-notFound\"",
+            "result": {
+              "status": "passed",
+              "duration": 1401000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "the page returns the expected result \"null page\"",
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "tasksdb-page-tests;user-is-able-to-perform-searching-on-tasks-db-page",
+        "keyword": "Scenario",
+        "line": 42,
+        "name": "User is able to perform searching on tasks DB Page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Name",
+                      "Password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "TestName",
+                      "123456"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user loged in with valid credentials",
+            "result": {
+              "status": "passed",
+              "duration": 1222000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "user navigates to Dashboard Page",
+            "result": {
+              "status": "passed",
+              "duration": 87000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "user has a Project in Dashboard with name Test Project with Tasks",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "user creates a task with details \"ATestSummaryTask 2\" and \"TestDescriptionTask 2\" and \"TO DO\" and \"backend\"",
+            "result": {
+              "status": "passed",
+              "duration": 1175000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "user navigates to TasksDB page",
+            "result": {
+              "status": "passed",
+              "duration": 102000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 35,
+            "name": "user perform a search with keyword \"ATestSummary\"",
+            "result": {
+              "status": "passed",
+              "duration": 952000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "the page returns the expected result \"ATestSummaryTask 2\"",
+            "result": {
+              "status": "passed",
+              "duration": 33000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "tasksdb-page-tests;user-is-able-to-perform-searching-on-tasks-db-page",
+        "keyword": "Scenario",
+        "line": 43,
+        "name": "User is able to perform searching on tasks DB Page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Name",
+                      "Password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "TestName",
+                      "123456"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user loged in with valid credentials",
+            "result": {
+              "status": "passed",
+              "duration": 891000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "user navigates to Dashboard Page",
+            "result": {
+              "status": "passed",
+              "duration": 90000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "user has a Project in Dashboard with name Test Project with Tasks",
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "user creates a task with details \"BTestSummaryTask 3\" and \"TestDescriptionTask 3\" and \"TO DO\" and \"backend\"",
+            "result": {
+              "status": "passed",
+              "duration": 1159000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "user navigates to TasksDB page",
+            "result": {
+              "status": "passed",
+              "duration": 90000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 35,
+            "name": "user perform a search with keyword \"null\"",
+            "result": {
+              "status": "passed",
+              "duration": 961000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "the page returns the expected result \"null page\"",
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

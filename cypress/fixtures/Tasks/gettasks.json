@@ -1,0 +1,63 @@
+{
+    "tasks": [
+        {
+            "status": "IN REVIEW",
+            "labels": [
+                null
+            ],
+            "attachments": [],
+            "_id": "6213ef52c3d71c0021d1c82f",
+            "summary": "task 1",
+            "description": "tasks 1",
+            "_projectId": "6213ee42c3d71c0021d1c82d",
+            "createdAt": "2022-02-21T20:00:18.874Z",
+            "updatedAt": "2022-02-21T20:09:23.157Z",
+            "__v": 13,
+            "_elasticId": "VtTeHX8BwmxCGGnJ3EsS"
+        },
+        {
+            "status": "TO DO",
+            "labels": [
+                "performance"
+            ],
+            "attachments": [],
+            "_id": "6213f023c3d71c0021d1c831",
+            "summary": "dfsgsd",
+            "description": "sdfsdf",
+            "_projectId": "6213ee42c3d71c0021d1c82d",
+            "createdAt": "2022-02-21T20:03:47.701Z",
+            "updatedAt": "2022-02-21T20:03:47.772Z",
+            "__v": 0,
+            "_elasticId": "V9TiHX8BwmxCGGnJC0uY"
+        },
+        {
+            "status": "TO DO",
+            "labels": [],
+            "attachments": [],
+            "_id": "6214197ec3d71c0021d1c839",
+            "summary": "gdfg",
+            "description": "dfggd",
+            "_projectId": "6213ee42c3d71c0021d1c82d",
+            "createdAt": "2022-02-21T23:00:14.961Z",
+            "updatedAt": "2022-02-21T23:00:15.035Z",
+            "__v": 0,
+            "_elasticId": "XNSDHn8BwmxCGGnJmEsq"
+        },
+        {
+            "status": "TO DO",
+            "labels": [
+                "backend"
+            ],
+            "attachments": [],
+            "_id": "6214197ec3d71c0021d1c839",
+            "summary": "TestSummaryTask",
+            "description": "TestDescriptionTask",
+            "_projectId": "6213ee42c3d71c0021d1c82d",
+            "createdAt": "2022-02-21T23:00:14.961Z",
+            "updatedAt": "2022-02-21T23:00:14.961Z",
+            "__v": 0,
+            "_elasticId": "XdSFHn8BwmxCGGnJTksW"
+        }
+    ],
+    "message": "Tasks retrieved successfully"
+}

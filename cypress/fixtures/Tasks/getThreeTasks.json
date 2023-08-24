@@ -1,0 +1,50 @@
+{
+    "tasks": [
+        {
+            "status": "TO DO",
+            "labels": [
+                "backend"
+            ],
+            "attachments": [],
+            "_id": "62153f2b9385e5002343be6b",
+            "summary": "TestSummaryTask",
+            "description": "TestDescriptionTask",
+            "_projectId": "62153db39385e5002343be67",
+            "createdAt": "2022-02-22T19:53:15.839Z",
+            "updatedAt": "2022-02-22T19:53:15.964Z",
+            "__v": 0,
+            "_elasticId": "ktT-In8BwmxCGGnJw0uv"
+        },
+        {
+            "status": "TO DO",
+            "labels": [
+                "backend"
+            ],
+            "attachments": [],
+            "_id": "62153e809385e5002343be69",
+            "summary": " ATestSummaryTask 2",
+            "description": "TestDescriptionTask 2",
+            "_projectId": "62153db39385e5002343be67",
+            "createdAt": "2022-02-22T19:50:24.649Z",
+            "updatedAt": "2022-02-22T19:50:24.687Z",
+            "__v": 0,
+            "_elasticId": "kNT8In8BwmxCGGnJJkuk"
+        },
+        {
+            "status": "TO DO",
+            "labels": [
+                "backend"
+            ],
+            "attachments": [],
+            "_id": "62153ed29385e5002343be6a",
+            "summary": "BTestSummaryTask 3",
+            "description": "TestDescriptionTask 3",
+            "_projectId": "62153db39385e5002343be67",
+            "createdAt": "2022-02-22T19:51:46.395Z",
+            "updatedAt": "2022-02-22T19:51:46.441Z",
+            "__v": 0,
+            "_elasticId": "kdT9In8BwmxCGGnJZUv3"
+        }
+    ],
+    "message": "Tasks retrieved successfully"
+}

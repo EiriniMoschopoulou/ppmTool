@@ -1,0 +1,17 @@
+{
+    "task": {
+        "status": "TO DO",
+        "labels": [
+            "backend"
+        ],
+        "attachments": [],
+        "_id": "6214197ec3d71c0021d1c839",
+        "summary": "TestSummaryTask",
+        "description": "TestDescriptionTask",
+        "_projectId": "6213ee42c3d71c0021d1c82d",
+        "createdAt": "2022-02-21T23:00:14.961Z",
+        "updatedAt": "2022-02-21T23:00:14.961Z",
+        "__v": 0
+    },
+    "message": "Task created successfully"
+}
