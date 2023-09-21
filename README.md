@@ -5,7 +5,7 @@
 ### Clone the repository:
 
 ```sh
-git clone https://Eirini_mos@bitbucket.org/Eirini_mos/ppm_tool.git
+git clone git@github.com:EiriniMoschopoulou/ppmTool.git
 ```
 
 ## Some tips
